@@ -1,5 +1,5 @@
 const siteConfig = {
-  whatsappNumber: "",
+  whatsappNumber: "918867954115",
   businessName: "Kalinga Traders"
 };
 
