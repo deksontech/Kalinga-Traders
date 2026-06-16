@@ -648,6 +648,28 @@ dd { margin: 0; color: var(--muted); }
   margin: 8px 0;
   color: rgba(255,255,255,.82);
 }
+.footer-contact {
+  min-width: 0;
+}
+.footer-contact .contact-line {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 15px;
+}
+.footer-contact .contact-line strong {
+  color: var(--gold);
+  font-size: .92rem;
+  line-height: 1.2;
+}
+.footer-contact .contact-line a,
+.footer-contact .contact-line span {
+  display: block;
+  margin: 0;
+  color: rgba(255,255,255,.88);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.45;
+}
 .footer-bottom {
   padding: 18px 0 22px;
   color: rgba(255,255,255,.68);
